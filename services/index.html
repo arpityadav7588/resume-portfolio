@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  
+  <!-- SEO Metadata -->
+  <title>Services | Embedded Systems &amp; Robotics Engineering | Arpit Yadav</title>
+  <meta name="description" content="Professional engineering services by Arpit Yadav. Specializing in C/C++ firmware development, IoT sensor integration, and custom PCB / hardware design."/>
+  <link rel="canonical" href="https://arpityadav.in/services/"/>
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://arpityadav.in/services/"/>
+  <meta property="og:title" content="Services | Embedded Systems &amp; Robotics Engineering | Arpit Yadav"/>
+  <meta property="og:description" content="View engineering services offered by Arpit Yadav, including firmware development, IoT solutions, and custom hardware."/>
+  <meta property="og:image" content="https://arpityadav.in/assets/img/arpit-profile.webp"/>
+
+  <!-- Tailwind & Fonts -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-container-low": "#ebf1f9",
+            "surface-container-highest": "#d5dee7",
+            "inverse-surface": "#090f13",
+            "surface-bright": "#f2f7fe",
+            "on-background": "#2a2f35",
+            "on-tertiary": "#f0f2ff",
+            "error-dim": "#b92902",
+            "primary-fixed": "#ff8a00",
+            "on-primary-container": "#442100",
+            "on-error": "#ffefec",
+            "secondary-fixed-dim": "#00efce",
+            "on-primary-fixed-variant": "#512800",
+            "on-tertiary-fixed-variant": "#003580",
+            "tertiary-dim": "#004aad",
+            "surface-dim": "#ccd5df",
+            "on-primary-fixed": "#180800",
+            "tertiary-fixed-dim": "#77a1ff",
+            "surface-container": "#e2e9f1",
+            "on-tertiary-fixed": "#00163d",
+            "on-secondary-fixed-variant": "#006859",
+            "on-surface-variant": "#565c62",
+            "tertiary-container": "#8eafff",
+            "primary-dim": "#7c4000",
+            "on-secondary": "#c2ffef",
+            "primary-fixed-dim": "#eb7f00",
+            "secondary-dim": "#005a4d",
+            "on-error-container": "#520c00",
+            "tertiary": "#0055c4",
+            "background": "#f2f7fe",
+            "secondary": "#006859",
+            "on-surface": "#2a2f35",
+            "surface-tint": "#8d4a00",
+            "tertiary-fixed": "#8eafff",
+            "on-secondary-container": "#005d4f",
+            "surface-variant": "#d5dee7",
+            "error": "#b02500",
+            "error-container": "#f95630",
+            "primary-container": "#ff8a00",
+            "secondary-fixed": "#26fedc",
+            "inverse-primary": "#ff8a00",
+            "surface-container-high": "#dce3ec",
+            "surface": "#f2f7fe",
+            "surface-container-lowest": "#ffffff",
+            "on-secondary-fixed": "#00483d",
+            "outline-variant": "#a8aeb4",
+            "primary": "#8d4a00",
+            "inverse-on-surface": "#989da4",
+            "outline": "#72777d",
+            "on-primary": "#fff0e7",
+            "secondary-container": "#26fedc",
+            "on-tertiary-container": "#002d6f"
+          },
+          fontFamily: {
+            "headline": ["Plus Jakarta Sans"],
+            "body": ["Inter"],
+            "label": ["Inter"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+  
+  <style>
+    body { font-family: 'Inter', sans-serif; background-color: #f2f7fe; color: #2a2f35; scroll-behavior: smooth; overflow-x: hidden; }
+    .font-plus-jakarta-sans { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; vertical-align: middle; }
+    .glass-panel { background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.5); }
+    .hero-gradient { background: radial-gradient(circle at 0% 0%, #ff8a0015 0%, transparent 50%), radial-gradient(circle at 100% 100%, #ff8a0008 0%, transparent 50%); }
+    .tilt-card:hover { transform: perspective(1000px) rotateX(2deg) rotateY(2deg) scale(1.02); }
+    
+    .bg-3d-orange { 
+      background: linear-gradient(145deg, #ff9f1a, #ff7b00);
+      box-shadow: 0 10px 30px -10px rgba(255, 138, 0, 0.5), 
+                  inset 0 1px 1px rgba(255, 255, 255, 0.4),
+                  inset 0 -2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .bg-3d-orange-dark { 
+      background: linear-gradient(145deg, #e67e00, #cc6b00);
+      box-shadow: 0 10px 25px -8px rgba(141, 74, 0, 0.4);
+    }
+    .text-3d-orange {
+      background: linear-gradient(135deg, #ff8a00 0%, #d84315 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .parallax-layer { position: absolute; pointer-events: none; z-index: 0; will-change: transform; }
+    @keyframes float-slow { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-20px) rotate(5deg); } }
+    @keyframes float-medium { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-40px) rotate(-10deg); } }
+    @keyframes float-fast { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-60px) rotate(15deg); } }
+    .animate-float-slow { animation: float-slow 12s ease-in-out infinite; }
+    .animate-float-medium { animation: float-medium 8s ease-in-out infinite; }
+    .animate-float-fast { animation: float-fast 6s ease-in-out infinite; }
+
+    .sphere-3d {
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.5), transparent 70%);
+      box-shadow: inset -10px -10px 25px rgba(0,0,0,0.2), 15px 15px 30px rgba(0,0,0,0.1);
+    }
+    .btn-3d { transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); }
+    .btn-3d:hover { transform: translateY(-4px) scale(1.02); box-shadow: 0 15px 40px -12px rgba(255, 138, 0, 0.6); }
+    .btn-3d:active { transform: translateY(0) scale(0.98); }
+    .site-nav { transition: transform 0.35s ease, opacity 0.35s ease, box-shadow 0.35s ease; }
+    .site-nav.nav-hidden { transform: translate(-50%, -140%); opacity: 0; }
+    
+    .mobile-bottom-nav { display: none; }
+    @media (max-width: 767px) {
+      body { padding-bottom: 6.5rem; }
+      .site-nav { display: none; }
+      .mobile-bottom-nav {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 0.5rem;
+        position: fixed;
+        left: 50%;
+        bottom: 1rem;
+        transform: translateX(-50%);
+        width: calc(100% - 1rem);
+        max-width: 28rem;
+        padding: 0.7rem;
+        z-index: 60;
+        background: rgba(255,255,255,0.78);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(255,255,255,0.6);
+        border-radius: 1.75rem;
+        box-shadow: 0 20px 45px -18px rgba(42,47,53,0.28);
+        opacity: 1;
+        pointer-events: auto;
+      }
+      .mobile-bottom-nav a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.18rem;
+        min-height: 3.35rem;
+        border-radius: 1rem;
+        padding: 0.45rem 0.25rem;
+        color: #64748b;
+        font-size: 0.68rem;
+        font-weight: 800;
+        text-align: center;
+      }
+      .mobile-bottom-nav a .material-symbols-outlined { font-size: 1.2rem; }
+      .mobile-bottom-nav .nav-link-active {
+        color: #8d4a00;
+        background: rgba(255, 138, 0, 0.12);
+        padding-bottom: 0.45rem;
+      }
+    }
+  </style>
+  
+  <!-- JSON-LD Schemas -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://arpityadav.in/#person",
+        "name": "Arpit Yadav",
+        "url": "https://arpityadav.in/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://arpityadav.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://arpityadav.in/services/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="antialiased selection:bg-primary-container selection:text-on-primary-container">
+
+  <!-- Background Parallax Canvas -->
+  <div class="fixed inset-0 pointer-events-none overflow-hidden z-0">
+    <div class="parallax-layer w-full h-full">
+      <div class="absolute top-[15%] left-[8%] w-64 h-64 bg-primary/10 rounded-full blur-[80px] animate-float-slow"></div>
+      <div class="absolute bottom-[20%] right-[10%] w-40 h-40 bg-secondary/10 sphere-3d animate-float-medium"></div>
+    </div>
+  </div>
+
+  <!-- TopNavBar -->
+  <nav class="site-nav hidden md:flex fixed top-4 left-1/2 -translate-x-1/2 w-[95%] max-w-7xl rounded-full px-8 py-4 z-50 glass-panel shadow-[0px_20px_50px_rgba(42,47,53,0.12)] justify-between items-center">
+    <div class="text-2xl font-black tracking-tighter text-slate-900 flex items-center gap-2">
+      <span class="w-8 h-8 bg-3d-orange rounded-lg flex items-center justify-center text-white text-xs">AY</span>
+      Arpit Yadav
+    </div>
+    <div class="hidden md:flex items-center gap-6 font-plus-jakarta-sans font-extrabold tracking-tight text-sm">
+      <a class="nav-link-inactive hover:text-primary transition-all hover:scale-105" href="../index.html#hero">Hero</a>
+      <a class="nav-link-inactive hover:text-primary transition-all hover:scale-105" href="../about/index.html">About</a>
+      <a class="nav-link-active hover:text-primary transition-all hover:scale-105" href="../services/index.html">Services</a>
+      <a class="nav-link-inactive hover:text-primary transition-all hover:scale-105" href="../resume/index.html">Resume</a>
+      <a class="nav-link-inactive hover:text-primary transition-all hover:scale-105" href="../certifications/index.html">Certifications</a>
+      <a class="nav-link-inactive hover:text-primary transition-all hover:scale-105" href="../projects/index.html">Projects</a>
+      <a class="nav-link-inactive hover:text-primary transition-all hover:scale-105" href="../blog/index.html">Blog</a>
+      <a class="nav-link-inactive hover:text-primary transition-all hover:scale-105" href="../index.html#contact">Contact</a>
+    </div>
+    <a class="bg-3d-orange text-white px-8 py-2.5 rounded-full font-bold text-sm btn-3d shadow-lg" href="../index.html#contact">
+      Contact Me
+    </a>
+  </nav>
+
+  <!-- Mobile Bottom Nav -->
+  <nav class="mobile-bottom-nav">
+    <a href="../index.html#hero"><span class="material-symbols-outlined">home</span><span>Hero</span></a>
+    <a href="../about/index.html"><span class="material-symbols-outlined">person</span><span>About</span></a>
+    <a class="nav-link-active" href="../services/index.html"><span class="material-symbols-outlined">widgets</span><span>Services</span></a>
+    <a href="../projects/index.html"><span class="material-symbols-outlined">work</span><span>Projects</span></a>
+    <a href="../index.html#contact"><span class="material-symbols-outlined">mail</span><span>Contact</span></a>
+  </nav>
+
+  <main class="relative z-10 pt-32 pb-24">
+    <div class="container mx-auto px-6 max-w-5xl">
+      <div class="glass-panel p-10 md:p-16 rounded-[3rem] shadow-2xl relative border-white/60">
+        
+        <span style="font-size: 12px; font-weight: 800; color: var(--color-primary); text-transform: uppercase; letter-spacing: 0.2em; display: block; margin-bottom: 16px;">Expert Services</span>
+        <h1 class="font-headline text-4xl md:text-6xl font-black tracking-tight text-on-background mb-8 leading-[1.02]">
+          Embedded &amp; <span class="text-3d-orange">Hardware Services</span>
+        </h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+          <!-- Card 1 -->
+          <div class="p-8 bg-white/70 rounded-3xl border border-slate-100 shadow-md">
+            <span class="material-symbols-outlined text-4xl text-primary mb-4">memory</span>
+            <h3 class="font-headline text-xl font-bold mb-3">Embedded Systems &amp; Firmware</h3>
+            <p class="font-body text-sm text-on-surface-variant leading-relaxed">
+              Develop efficient C/C++ firmware for microcontrollers like Arduino and ESP32 with RTOS and edge-level power optimization.
+            </p>
+          </div>
+          <!-- Card 2 -->
+          <div class="p-8 bg-white/70 rounded-3xl border border-slate-100 shadow-md">
+            <span class="material-symbols-outlined text-4xl text-primary mb-4">sensors</span>
+            <h3 class="font-headline text-xl font-bold mb-3">IoT Sensor Integration</h3>
+            <p class="font-body text-sm text-on-surface-variant leading-relaxed">
+              Deploy and integrate environmental sensors, actuators, and cloud communication protocols like MQTT for real-time monitoring.
+            </p>
+          </div>
+          <!-- Card 3 -->
+          <div class="p-8 bg-white/70 rounded-3xl border border-slate-100 shadow-md">
+            <span class="material-symbols-outlined text-4xl text-primary mb-4">developer_board</span>
+            <h3 class="font-headline text-xl font-bold mb-3">Custom PCB &amp; Hardware Design</h3>
+            <p class="font-body text-sm text-on-surface-variant leading-relaxed">
+              Design custom hardware solutions and PCB layouts for autonomous robots, smart agriculture, and edge devices.
+            </p>
+          </div>
+        </div>
+
+        <div class="text-center mt-12">
+          <a class="bg-3d-orange text-white px-10 py-4 rounded-full font-black text-lg btn-3d shadow-xl inline-block" href="../index.html#contact">
+            Schedule a Consultation
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="w-full py-24 bg-slate-900 border-t border-white/5 relative z-10 text-white">
+    <div class="flex flex-col md:flex-row justify-between items-center px-8 max-w-7xl mx-auto gap-12">
+      <div class="text-slate-400 font-inter text-xs tracking-[0.3em] uppercase font-black">
+        © 2026 Arpit Yadav. <span class="text-3d-orange">Built with Intelligence.</span>
+      </div>
+      <div class="flex gap-12 items-center">
+        <a class="text-white hover:text-3d-orange transition-all duration-300 font-inter text-xs tracking-[0.3em] uppercase font-black" href="https://linkedin.com/in/Arpit-yadav-70367b342" rel="noreferrer" target="_blank">LinkedIn</a>
+        <a class="text-white hover:text-3d-orange transition-all duration-300 font-inter text-xs tracking-[0.3em] uppercase font-black" href="https://github.com/Arpityadav7588" rel="noreferrer" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

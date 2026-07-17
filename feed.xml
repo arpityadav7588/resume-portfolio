@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arpit Yadav | Technical Blog &amp; Projects</title>
+    <link>https://arpityadav.in/projects/</link>
+    <description>Engineering insights, robotics achievements, and updates on Embedded Systems, IoT, and hardware design by Arpit Yadav.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jun 2026 11:42:00 +0530</lastBuildDate>
+    <atom:link href="https://arpityadav.in/feed.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Developing a PID Controller for a Line-following Robot</title>
+      <link>https://arpityadav.in/projects/line-follower/</link>
+      <guid>https://arpityadav.in/projects/line-follower/</guid>
+      <pubDate>Fri, 27 Mar 2026 01:30:00 GMT</pubDate>
+      <description>An in-depth breakdown of designing a custom PID feedback loop for precise differential-drive control.</description>
+    </item>
+    
+    <item>
+      <title>Building a Smart Agricultural Node with ESP32 &amp; MQTT</title>
+      <link>https://arpityadav.in/projects/smart-ag-node/</link>
+      <guid>https://arpityadav.in/projects/smart-ag-node/</guid>
+      <pubDate>Wed, 18 Feb 2026 10:00:00 GMT</pubDate>
+      <description>Implementing low-power sleep modes, calibrating capacitive moisture sensors, and streaming telemetry over MQTT.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Exclude system folders
+Disallow: /node_modules/
+Disallow: /api/
+
+Sitemap: https://arpityadav.in/sitemap.xml

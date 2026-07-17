@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arpit Yadav - Resume</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Arial, Calibri, "Helvetica Neue", sans-serif;
+            font-size: 10.5pt;
+            line-height: 1.38;
+            color: #111;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.48in 0.62in;
+        }
+        h1 {
+            font-size: 20pt;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            margin-bottom: 3px;
+            text-align: center;
+        }
+        .contact {
+            font-size: 10pt;
+            color: #222;
+            margin-bottom: 11px;
+            text-align: center;
+        }
+        .contact span { margin: 0 7px; }
+        h2 {
+            font-size: 11.5pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-bottom: 1.5px solid #000;
+            padding-bottom: 2px;
+            margin-top: 11px;
+            margin-bottom: 6px;
+            letter-spacing: 0.3px;
+        }
+        .section { margin-bottom: 7px; }
+        .entry { margin-bottom: 8px; }
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+        }
+        .entry-title {
+            font-weight: 700;
+            font-size: 10.5pt;
+        }
+        .entry-subtitle {
+            font-style: italic;
+            font-size: 10pt;
+            color: #333;
+        }
+        .entry-date {
+            font-weight: 600;
+            font-size: 10pt;
+            color: #222;
+        }
+        .location {
+            font-size: 10pt;
+            color: #333;
+        }
+        ul {
+            margin-left: 16px;
+            margin-top: 3px;
+        }
+        li { margin-bottom: 2px; }
+        .two-col {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 4px 18px;
+        }
+        .two-col > div { flex: 1 1 45%; }
+        .summary {
+            text-align: justify;
+            margin-bottom: 3px;
+        }
+        a { color: #000; text-decoration: none; }
+        .cert-list {
+            margin-left: 16px;
+        }
+        .cert-list li { margin-bottom: 2px; }
+        @media print {
+            body { padding: 0.42in 0.52in; }
+        }
+    </style>
+<base target="_blank">
+</head>
+<body>
+
+    <h1>Arpit YADAV</h1>
+    <div class="contact">
+        <span>arpityadavarpit045@gmail.com</span> |
+        <span>+91 7649810380</span> |
+        <span>Indore, MP, India</span> |
+        <span>linkedin.com/in/arpit-yadav-70367b342</span> |
+        <span>github.com/arpityadav7588</span>
+    </div>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p class="summary">
+            Second-year Electronics and Communication Engineering undergraduate with a strong foundation in hardware-software convergence, robotics, and IoT system design. Experienced in designing high-speed autonomous robotic systems, end-to-end IoT architectures with cloud dashboards, and embedded firmware with quantifiable performance metrics. Skilled in PCB design (KiCad), sensor integration, PID control systems, computer vision (OpenCV), and full-stack IoT development. SIH 2025 hardware hackathon finalist, winner of national robotics competitions, and active open-source contributor. Seeking roles in Embedded Systems, IoT Engineering, and Full-Stack Development where rigorous verification meets scalable system architecture.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Bachelor of Technology in Electronics and Communication Engineering</span>
+                <span class="entry-date">Expected Graduation: 2028</span>
+            </div>
+            <div class="entry-header">
+                <span class="entry-org">Swami Vivekanand College of Engineering (SVCE), Indore</span>
+                <span class="location">Indore, Madhya Pradesh</span>
+            </div>
+            <ul>
+                <li>Current CGPA: <strong>6.90/10.0</strong> </li>
+                <li>Relevant Coursework: Microcontrollers, Embedded Systems, Digital Logic Design, Data Structures & Algorithms, Signals & Systems, Circuit Theory, Communication Systems</li>
+            </ul>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Higher Secondary (12th Grade) — PCM</span>
+                <span class="entry-date">2022</span>
+            </div>
+            <div class="entry-header">
+                <span class="entry-org">Govt. Malhar Ashram, Indore</span>
+                <span class="location">Indore, Madhya Pradesh</span>
+            </div>
+            <ul>
+                <li>Percentage: <strong>79.6%</strong></li>
+            </ul>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Secondary (10th Grade)</span>
+                <span class="entry-date">2020</span>
+            </div>
+            <div class="entry-header">
+                <span class="entry-org">Govt. Malhar Ashram, Indore</span>
+                <span class="location">Indore, Madhya Pradesh</span>
+            </div>
+            <ul>
+                <li>Percentage: <strong>76%</strong></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <div class="two-col">
+            <div><strong>Hardware & Embedded:</strong> ESP32, STM32, Arduino, Multilayer PCB Design, KiCad, Dense IR Arrays, IMU/Environmental Sensors, PID Control Tuning, Motor Drivers (L298N, TB6612FNG), Power Electronics, Oscilloscopes & Logic Analyzers</div>
+            <div><strong>Software & Firmware:</strong> C/C++ (Embedded), Python, JavaScript, HTML/CSS, Data Structures, OpenCV, Computer Vision, Sensor Fusion</div>
+            <div><strong>IoT & Cloud:</strong> MQTT, InfluxDB, Grafana, OTA Updates, Wi-Fi Data Transmission, ADC Multiplexing</div>
+            <div><strong>Tools & Design:</strong> Git/GitHub, Docker (learning), GitHub Actions, PlatformIO, Figma (UI/UX), Fusion 360, MATLAB, VS Code, Arduino IDE</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Key Projects</h2>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">High-Speed Autonomous Line-Follower Robot</span>
+                <span class="entry-date">Present</span>
+            </div>
+            <div class="entry-subtitle">Embedded Systems & Control Theory | ESP32, KiCad, C++, PID Control</div>
+            <ul>
+                <li>Designed a high-performance autonomous robot using an Arduino Nano and QTR-8RC IR sensor array for precise track detection and real-time path correction</li>
+                <li>Implemented and tuned a high-frequency PID control loop to balance speed against oscillation, achieving stable navigation at speeds up to <strong>1.3 meters/second</strong></li>
+                <li>Designed custom PCB in KiCad for sensor array integration and motor driver routing; optimized layout for signal integrity</li>
+            </ul>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">IoT Smart Agriculture Node</span>
+                <span class="entry-date">2025</span>
+            </div>
+            <div class="entry-subtitle">Full-Stack IoT (Edge to Cloud) | ESP32, MQTT, InfluxDB, Grafana</div>
+            <ul>
+                <li>Engineered an integrated IoT solution for soil moisture and climate monitoring with Over-The-Air (OTA) firmware updates</li>
+                <li>Integrated DHT and soil sensors with ESP32 NodeMCU, transmitting data via MQTT to InfluxDB time-series database</li>
+                <li>Built real-time Grafana dashboard for farmers to visualize environmental trends and optimize irrigation schedules</li>
+            </ul>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Robo Soccer Vision System</span>
+                <span class="entry-date">2025</span>
+            </div>
+            <div class="entry-subtitle">Computer Vision & Robotics | OpenCV, Python, ESP32-CAM</div>
+            <ul>
+                <li>Developed real-time ball and goal detection system using lightweight computer vision on ESP32-CAM module</li>
+                <li>Implemented color-space filtering and contour detection in OpenCV to track game objects at 15+ FPS on constrained hardware</li>
+                <li>Integrated vision feedback with motor control logic for autonomous ball-chasing and goal-scoring behavior</li>
+            </ul>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">End-to-End IoT Environmental Monitoring System</span>
+                <span class="entry-date">2025</span>
+            </div>
+            <div class="entry-subtitle">Full-Stack IoT | ESP32, Wi-Fi, Web Dashboard</div>
+            <ul>
+                <li>Engineered an integrated IoT solution linking edge hardware to a responsive web dashboard for real-time environmental analytics</li>
+                <li>Integrated DHT temperature/humidity sensors and air quality sensors with ESP32, handling ADC multiplexing and Wi-Fi data transmission</li>
+                <li>Designed backend data pipeline and frontend visualization to display sensor trends with low-latency updates</li>
+            </ul>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Technical Tool UI/UX Prototype</span>
+                <span class="entry-date">2026</span>
+            </div>
+            <div class="entry-subtitle">User Interface Design | Figma, Responsive Design</div>
+            <ul>
+                <li>Developed high-fidelity wireframes and interactive prototypes in Figma for an embedded device configuration tool</li>
+                <li>Applied user workflow optimization principles, reducing estimated steps to configure sensor parameters by <strong>40%</strong></li>
+                <li>Aligned hardware constraint feedback with human interaction patterns to ensure intuitive embedded system configuration</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Achievements & Certifications</h2>
+        <ul class="cert-list">
+            <li><strong>SIH 2025 Finalist</strong> — Smart India Hackathon (Hardware Category), recognized for innovative hardware-integrated solution</li>
+            <li><strong>Winner — Robo Race</strong>, QUEURTH-2026, Vikrant Group of Institutions, Indore (Feb 2026)</li>
+            <li><strong>2nd Place — Robo Rush</strong>, MAITRIM 2026, Millennium Group of Institutions, Bhopal (Apr 2026)</li>
+            <li><strong>Screening Round Qualifier</strong> — Ranchi Hacks 2026, Google Developer Groups (Jan 2026)</li>
+            <li><strong>Participant</strong> — India Innovates 2026, Bharat Mandapam, New Delhi (Mar 2026)</li>
+            <li><strong>Participant</strong> — Vibe Coding Hackathon (2026)</li>
+            <li><strong>Campus Ambassador</strong> — SKITECH, led outreach and technical education promotion across campus</li>
+            <li><strong>Ignite Bootcamp: Idea to Plan</strong> — Wadhwani Foundation (Apr 2026, 18 hours of training in ideation, prototyping, and business modeling)</li>
+            <li><strong>UI/UX Design Career Workshop</strong> — GUVI Geek Networks & HCL (Mar 2026)</li>
+            <li><strong>National Science Day Exhibition</strong> — SVCE Indore, supported by NCSTC, DST, GOI & MPCST (Feb 2025)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Competitions & Robotics Experience</h2>
+        <ul>
+            <li>Winner and active participant in national-level robotics competitions including <strong>Robo Race, High-Speed Line Follower, and Robo Soccer</strong> tournaments across multiple institutions</li>
+            <li>Designed competition-grade robotic platforms with constraint-driven power budgets, real-time sensor fusion, and autonomous navigation algorithms</li>
+            <li>Managed end-to-end robot development: 3D chassis design (Fusion 360), circuit design, PCB layout (KiCad), firmware development, control tuning, and on-field troubleshooting</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Leadership & Community</h2>
+        <ul>
+            <li><strong>Campus Ambassador — SKITECH:</strong> Led outreach initiatives for accessible technical education; coordinated workshops and mentored peers on embedded systems and robotics fundamentals</li>
+            <li><strong>Active Participant — Technical Fests:</strong> Regularly compete in robotics and coding events to validate hardware-software integration skills under competitive time and resource constraints</li>
+            <li><strong>Technical Content Creation:</strong> Create photo/video technical storytelling content on Instagram to document build processes and share engineering insights</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Additional Information</h2>
+        <ul>
+            <li><strong>Languages:</strong> English (Professional), Hindi (Native)</li>
+            <li><strong>Current Learning:</strong> RTOS-based embedded architectures, modular testable full-stack apps with CI/CD, edge AI on microcontrollers (TensorFlow Lite Micro)</li>
+            <li><strong>Interests:</strong> Low-power embedded design, robotics kinematics, human-computer interaction, competitive programming, control theory</li>
+            <li><strong>Availability:</strong> Open to internships and co-op roles in Embedded Systems, IoT Engineering, and Full-Stack Development</li>
+        </ul>
+    </div>
+
+</body>
+</html>
